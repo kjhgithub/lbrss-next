@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: { default: "LBRSS", template: "%s | LBRSS" },
   description: "Luke Barnes Racket Stringing Services",
   keywords: ["Squash", "Paddle", "Racket", "Stringing", "Badminton"],
-  manifest: `${process.env.NEXT_PUBLIC_SITE_URL}/site.webmanifest`,
+  manifest: "https://lbrss.haki-tech.com/site.webmanifest",
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
